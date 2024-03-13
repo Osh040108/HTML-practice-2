@@ -1,0 +1,23 @@
+.one {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+}
+
+.check:checked ~div {
+background-color: green;
+}
+
+@font-face {
+    font-family: "IMB Plex Sans";
+    src: url("./IBMPlexSansKR-Medium\ \(1\).ttf");
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+}
+
+
+
